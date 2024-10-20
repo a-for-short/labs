@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{booktabs} % for professional looking tables
+\usepackage{array}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{siunitx}
+\usepackage{csquotes}
+\usepackage{url,amsmath,amssymb,fancybox,listings,pdfpages,caption,multicol,datetime,rotating, booktabs}
+\usepackage{geometry}
+\usepackage{graphicx}
+\author{Николаев Владислав\\
+	\texttt{v.nikolaev2@g.nsu.ru} \and
+	Матяш Алексей\\
+	\texttt{a.matyash@g.nsu.ru}}
+\title{Определение константы диссоциации бромтимолового синего}
+\begin{document}
+	\maketitle
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Данные для индикатора при $\lambda = 615$ нм}
+		\resizebox{\textwidth}{!}{ % Adjust table size to fit within the page
+			\begin{tabular}{>{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{4cm}}
+				\toprule
+				\textbf{Форма индикатора} & \textbf{Номер раствора} & \textbf{C (моль/л)} & \textbf{$D_{615}$} & \textbf{Коэффициент экстинкции} \\
+				\midrule
+				\textbf{HA$^-$} & 1 & $5.13 \times 10^{-5}$ & $1.91 \times 10^{-3}$ & 27 \\
+				& 2 & $3.84 \times 10^{-5}$ & $1.43 \times 10^{-3}$ & \\
+				& 3 & $2.56 \times 10^{-5}$ & $2.13 \times 10^{-4}$ & \\
+				& 4 & $1.28 \times 10^{-5}$ & $3.37 \times 10^{-4}$ & \\
+				\textbf{A$^{2-}$} & 5 & $2.56 \times 10^{-5}$ & $9.92 \times 10^{-1}$ & 36 411 \\
+				& 6 & $1.28 \times 10^{-5}$ & $4.76 \times 10^{-1}$ & \\
+				& 7 & $6.41 \times 10^{-6}$ & $2.08 \times 10^{-1}$ & \\
+				& 8 & $3.20 \times 10^{-6}$ & $1.20 \times 10^{-1}$ & \\
+				\bottomrule
+			\end{tabular}
+		} % End of resizebox
+	\end{table}
+	
+	\vspace{1cm}
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Данные для индикатора при $\lambda = 433$ нм}
+		\resizebox{\textwidth}{!}{
+			\begin{tabular}{>{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{4cm}}
+				\toprule
+				\textbf{Форма индикатора} & \textbf{Номер раствора} & \textbf{C (моль/л)} & \textbf{$D_{433}$} & \textbf{Коэффициент экстинкции} \\
+				\midrule
+				\textbf{HA$^-$} & 1 & $5.13 \times 10^{-5}$ & $9.07 \times 10^{-1}$ & 17 136 \\
+				& 2 & $3.84 \times 10^{-5}$ & $6.66 \times 10^{-1}$ & \\
+				& 3 & $2.56 \times 10^{-5}$ & $4.34 \times 10^{-1}$ & \\
+				& 4 & $1.28 \times 10^{-5}$ & $2.12 \times 10^{-1}$ & \\
+				\textbf{A$^{2-}$} & 5 & $2.56 \times 10^{-5}$ & $8.17 \times 10^{-2}$ & 2 987 \\
+				& 6 & $1.28 \times 10^{-5}$ & $3.77 \times 10^{-2}$ & \\
+				& 7 & $6.41 \times 10^{-6}$ & $1.42 \times 10^{-2}$ & \\
+				& 8 & $3.20 \times 10^{-6}$ & $1.15 \times 10^{-2}$ & \\
+				\bottomrule
+			\end{tabular}
+		} % End of resizebox
+	\end{table}
+	
+\end{document}

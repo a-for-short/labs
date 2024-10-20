@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.9.19)  20 OCT 2024 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2024.9.19)  20 OCT 2024 17:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -753,6 +753,63 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen266
 \Gm@dimlist=\toks40
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count363
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count364
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip63
+\multirow@cntb=\count365
+\multirow@dima=\skip64
+\bigstrutjot=\dimen267
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box117
+)
+\tc@llx=\dimen268
+\tc@lly=\dimen269
+\tc@urx=\dimen270
+\tc@ury=\dimen271
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen272
+\adjbox@Height=\dimen273
+\adjbox@Depth=\dimen274
+\adjbox@Totalheight=\dimen275
+\adjbox@pwidth=\dimen276
+\adjbox@pheight=\dimen277
+\adjbox@pdepth=\dimen278
+\adjbox@ptotalheight=\dimen279
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count366
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box118
+\sift@deathcycles=\count367
+\@vwid@loff=\dimen280
+\@vwid@roff=\dimen281
+))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -760,50 +817,50 @@ Package csquotes Info: Redefining alias 'default' -> 'russian'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count363
-\l__pdf_internal_box=\box117
+\l__color_backend_stack_int=\count368
+\l__pdf_internal_box=\box119
 )
 (./doc.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 6
 .
  (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `doc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Info: Redefining \th on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Info: Redefining \th on input line 19.
 Package translations Info: no dictionary file `translations-basic-dictionary-ru
-ssian.trsl' found. on input line 16.
-\c@lstlisting=\count364
+ssian.trsl' found. on input line 19.
+\c@lstlisting=\count369
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count365
-\scratchdimen=\dimen267
-\scratchbox=\box118
-\nofMPsegments=\count366
-\nofMParguments=\count367
+\scratchcounter=\count370
+\scratchdimen=\dimen282
+\scratchbox=\box120
+\nofMPsegments=\count371
+\nofMParguments=\count372
 \everyMPshowfont=\toks41
-\MPscratchCnt=\count368
-\MPscratchDim=\dimen268
-\MPnumerator=\count369
-\makeMPintoPDFobject=\count370
+\MPscratchCnt=\count373
+\MPscratchDim=\dimen283
+\MPnumerator=\count374
+\makeMPintoPDFobject=\count375
 \everyMPtoPDFconversion=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -864,54 +921,95 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-17.
+20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
+<4mg.png, id=1, 462.528pt x 346.896pt>
+File: 4mg.png Graphic file (type png)
+<use 4mg.png>
+Package pdftex.def Info: 4mg.png  used on input line 24.
+(pdftex.def)             Requested size: 430.00462pt x 322.51994pt.
+
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/cm-super/cm-super-t2a.enc}] (./doc.aux)
+dvips/cm-super/cm-super-t2a.enc} <./4mg.png>]
+<eps330.jpg, id=14, 462.528pt x 346.896pt>
+File: eps330.jpg Graphic file (type jpg)
+<use eps330.jpg>
+Package pdftex.def Info: eps330.jpg  used on input line 36.
+(pdftex.def)             Requested size: 210.70462pt x 158.02847pt.
+<eps500.jpg, id=15, 462.528pt x 346.896pt>
+File: eps500.jpg Graphic file (type jpg)
+<use eps500.jpg>
+Package pdftex.def Info: eps500.jpg  used on input line 43.
+(pdftex.def)             Requested size: 210.70462pt x 158.02847pt.
+
+
+[2 <./eps330.jpg> <./eps500.jpg>]
+<ionic_strength.png, id=27, 468.75125pt x 370.38374pt>
+File: ionic_strength.png Graphic file (type png)
+<use ionic_strength.png>
+Package pdftex.def Info: ionic_strength.png  used on input line 133.
+(pdftex.def)             Requested size: 344.005pt x 271.81339pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[3]
+
+[4{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./ionic_strengt
+h.png>] (./doc.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15039 strings out of 475013
- 286081 string characters out of 5769187
- 1950957 words of memory out of 5000000
- 37515 multiletter control sequences out of 15000+600000
- 567944 words of font info for 67 fonts, out of 8000000 for 9000
+ 16219 strings out of 475013
+ 307599 string characters out of 5769187
+ 1960957 words of memory out of 5000000
+ 38655 multiletter control sequences out of 15000+600000
+ 574670 words of font info for 84 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 73i,13n,80p,1036b,534s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,14n,80p,1036b,891s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm10
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sftt1200.pfb>
-Output written on doc.pdf (1 page, 132768 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+rm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sft
+t1200.pfb>
+Output written on doc.pdf (4 pages, 2191036 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
